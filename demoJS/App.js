@@ -1,15 +1,13 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-// import { DemoState } from "./DemoState";
-// import { DemoClassFunc } from "./DemoClassFunc";
-// import { DemoClassFunc2 } from "./DemoClassFunc2";
-// import { DemoTest } from "./DemoTest";
-// import { DemoUpdate } from "./DemoUpdate";
-// import { DemoPractice } from "./DemoPractice";
-// import { DemoPractice2 } from "./DemoPractice2";
-// import { DemoRefs } from "./DemoRefs";
-import { AnnoList } from './anno-list/anno-list';
+import { DemoState } from "./DemoState";
+import { DemoClassFunc } from "./DemoClassFunc";
+import { DemoClassFunc2 } from "./DemoClassFunc2";
+import { DemoTest } from "./DemoTest";
+import { DemoUpdate } from "./DemoUpdate";
+import { DemoPractice } from "./DemoPractice";
+import { DemoPractice2 } from "./DemoPractice2";
 
 class Component extends React.Component{
   render() {
@@ -38,15 +36,13 @@ class App extends React.PureComponent{
     console.log(jsx);
     return (
       <div className="App">
-        {/* <h1 data-index={12} data="7\8">React</h1> */}
+        <h1 data-index={12} data="7\8">React</h1>
         {/* <DemoState /> */}
         {/* <DemoClassFunc /> */}
         {/* <DemoClassFunc2 /> */}
         {/* <DemoTest /> */}
         {/* <DemoUpdate /> */}
-        {/* <DemoPractice2 /> */}
-        {/* <DemoRefs /> */}
-        <AnnoList />
+        <DemoPractice2 />
       </div>
     );
   }
